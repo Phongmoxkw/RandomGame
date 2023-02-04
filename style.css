@@ -1,0 +1,202 @@
+body {
+    background-color: antiquewhite;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+h1 {
+text-align: center;
+}
+
+.classdiv {
+    display: flex;
+    justify-content: center;
+}
+#div1 {
+    align-items: center;
+    width: 200px;
+    height: 100px;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#nhap {
+    text-align: start;
+    font-size: 35px;
+    height: 50%;
+    border: 1px solid;
+    width: 197.997px !important;
+    box-shadow: 0px 0px !important;
+}
+input {
+    font-size: 40px;
+    margin-top: 10px;
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    border-radius: 6px;
+    box-shadow: 0px 5px;
+}
+.input1:hover {
+    cursor: pointer;
+}
+.input1:active {
+    margin-top: 5px;
+    color: tomato;
+    box-shadow: 0px 0px;
+}
+#main {
+    background-color: antiquewhite;
+    height: 1000px;
+    padding-top: 20px;
+    width: 99.5%;
+    
+}
+.content {
+    display: flex;
+    justify-content: center;
+}
+#gift {
+    padding: 10px;
+    display: none;
+}
+embed {
+    width: 370px;
+}
+#hien {
+    margin-top: 10px;
+}
+
+#hien1 {
+    margin-top: 100px;
+}
+
+header {
+    background-color: aliceblue;
+    width: 99%;
+    border: 5px solid black;
+}
+footer {
+    margin-top: 20px;
+    background-color: rgb(121, 210, 210);
+    height: 300px;
+    width: 99%;
+    border: 5px solid black;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar button {
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-right: 2px;
+    width: 98%;
+}
+.tieude {
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    margin-right: 3px;
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {   
+      flex-direction: column;
+    }
+  }
+                                 
+#dmm {
+    margin-top: 0px !important;
+}
+
+button {
+    padding-top: 1px;
+    text-align: center;
+    background-color: beige;
+    border-radius: 5px;
+    border: 5px solid black;
+    margin-bottom: 5px;
+}
+button:hover {
+    background-color: tomato;
+}
+
+
+#khung {
+    margin-top: 20px;
+    width: 99.5%;
+    height: 550px;
+    border: 5px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#image, img {
+    height: 100px;
+}
+#image {
+    display: inline-flex;
+}
+h2 {
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content2 {
+    margin-top: 40px;
+    width: 99%;
+    height: 615px;
+    border: 5px solid black;
+}
+
+#trungtam {
+    width: 99.5%;
+    height: 430px;
+    border: 5px solid black;
+    padding-bottom: 15px;
+}
+
+#para {
+    padding: 3px 0px 2px 3px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 98.6%;
+    height: auto;
+    border: 5px solid black;
+}
+
+p {
+    margin: 2px;
+    letter-spacing: 2px;
+    text-align: justify;
+    width: 98%;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#link {
+    padding-left: 5px;
+    padding-right: 2px;
+    text-decoration: underline;
+    color: red;
+}
+
+h3 {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+
+#loser {
+    padding: 10px;
+    position: absolute;
+    display: none;
+}

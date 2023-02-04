@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Random Number</title>
+        <link rel="icon" type="image/x-icon" href="./image/icon.icon">
+        <link href="./style.css" rel="stylesheet">
+        <script src="./jsnew/site2.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <header>
+                <div class="navbar">
+                    <button onclick="randomgame()">
+                        <h1 class="tieude">Random Number</h1></button>
+                    <button onclick="huongdan()">
+                        <h1 class="tieude"> Hướng dẫn chơi </h1></h1></button>
+                    <button><a href="#footer">
+                            <h1 class="tieude">Thông tin liên hệ</h1></a></button>
+        </header>
+
+
+        <div id="main">
+            <div id="trungtam">
+            <h1 id="dmm">Đoán</h1>
+            <div class="classdiv">
+                <div id="div1">
+                    <input type="text" value="nhập số" id="nhap">
+                    <input type="submit" value="BẮT ĐẦU" onclick="dichuyen()"  class="input1" id="doan">
+                    <input type="submit" value="XÓA" onclick="resetso()" class="input1" id="xoa">
+                    <input type="submit" value="CHƠI LẠI" onclick="choilai()" class="input1" id="choilai">
+                </div>
+            </div>
+            </div>
+            <div id="khung">
+            <h1 id="hien"></h1>
+            <h1 id="hien1"></h1>
+            <div class="content">
+                <div id="gift">
+                    <embed src="./image/giphy.gif"/>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="content2">
+            <iframe width="100%" height="615" src="https://www.youtube.com/embed/pI2vP_30KYk" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <br>
+        <div id="para">
+            <h3>Hướng dẫn sử dụng thuật toán binary search</h3>
+            <a href="https://vi.wikipedia.org/wiki/T%C3%ACm_ki%E1%BA%BFm_nh%E1%BB%8B_ph%C3%A2n" id="link">binary search</a>
+            <br>
+            <p>Trong khoa học máy tính, tìm kiếm nhị phân (tiếng Anh: binary search), 
+                còn gọi là tìm kiếm nửa khoảng (half-interval search),[1] tìm kiếm logarit 
+                (logarithmic search),[2] hay binary chop,[3] là một thuật toán tìm kiếm xác định 
+                vị trí của một giá trị cần tìm trong một mảng đã được sắp xếp.[4][5] Thuật toán tiến hành
+                 so sánh giá trị cần tìm với phần tử đứng giữa mảng. Nếu hai giá trị không bằng nhau,
+                  phần nửa mảng không chứa giá trị cần tìm sẽ bị bỏ qua và tiếp tục tìm kiếm trên nửa còn lại, 
+                  một lần nữa lấy phần tử ở giữa và so sánh với giá trị cần tìm, cứ thế lặp lại cho đến khi tìm 
+                  thấy giá trị đó. Nếu phép tìm kiếm kết thúc khi nửa còn lại trống thì giá trị cần tìm không có trong mảng.<br>
+
+                Tìm kiếm nhị phân chạy theo thời gian logarit trong trường hợp tệ nhất, thực hiện {\displaystyle O(\log n)}O(\log n) 
+                bước so sánh, trong đó {\displaystyle n}n là số phần tử trong mảng, {\displaystyle O}{\displaystyle O} là kí hiệu O 
+                lớn, và {\displaystyle \log }{\displaystyle \log } là phép toán logarit.[6] Thuật toán tìm kiếm nhị phân nhanh hơn 
+                so với tìm kiếm tuyến tính, ngoại trừ các trường hợp mảng có kích thước nhỏ. Tuy nhiên, mảng phải được sắp xếp trước 
+                khi áp dụng tìm kiếm nhị phân. Một số cấu trúc dữ liệu chuyên dụng được thiết kế cho việc tìm kiếm nhanh, ví dụ như 
+                bảng băm, có thể thực hiện tìm hiệu quả hơn tìm kiếm nhị phân. Tuy nhiên, thuật toán này có thể dùng để giải quyết 
+                nhiều loại vấn đề hơn, như tìm phần tử nhỏ nhất hoặc lớn nhất tiếp theo trong mảng so với giá trị cho trước, kể cả khi
+                 nó không có trong mảng.<br>
+                
+                Có nhiều biến thể của phép tìm kiếm nhị phân. Cụ thể, phương pháp "đổ xuống một phần" (fractional cascading) giúp tăng
+                 tốc tìm kiếm nhị phân với cùng một giá trị trong nhiều mảng. Phương pháp này cho phép giải quyết hiệu quả một số vấn đề
+                  về tìm kiếm trong hình học tính toán và nhiều lĩnh vực khác. Thuật toán tìm kiếm mũ (exponential search) mở rộng tìm 
+                  kiếm nhị phân sang các danh sách không có giới hạn. Các cấu trúc dữ liệu cây tìm kiếm nhị phân và B-cây được xây dựng 
+                  dựa trên tìm kiếm nhị phân.</p>
+        </div>
+        <footer id="footer">
+            <div id="image">
+                <img src="./image/insta.png">
+                <h2>Phong0_0Pham</h2>
+            </div>
+            <h2>Email: phongpt203@gmail.com</h2>
+        </footer>
+    </body>
+</html>
